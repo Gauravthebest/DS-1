@@ -1,6 +1,6 @@
 //Program to create an array of subjects that you are studying in current semester
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
+using namespace std;
 
 void main()
 {
@@ -14,5 +14,5 @@ void main()
  cout<<i+1<<"."<<" "<<sub[i]<<endl;
 
 }
-getch();
+return 0;
 }
