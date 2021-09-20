@@ -3,8 +3,8 @@
 using namespace std;
   struct book 
     {
-        string name; 
-        string author;
+        string name of the book; 
+        string author of the book;
 	int year;
 	int n;        
         void enterdetails();
@@ -47,7 +47,7 @@ using namespace std;
     { 
 	 int n;
 	 book arr[10];
-	 cout<<"Enter the number of books: ";
+	 cout<<"Please enter the number of books: ";
 	 cin>>n;
 	 enterdetails(arr,n);
 	 printdetails(arr,n);
